@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('../assets/YourFontFile.woff2') format('woff2'),
+       url('../assets/YourFontFile.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 14px;
+
+}
+img {
+  width: 100px; 
+  height: 100px;
+  border-radius: 50%;
+}
+.profile-img {
+  text-align: center;
+  
+}
+.name {
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  font-size: 20px; 
+}
+.location {
+  color: hsl(75, 94%, 57%);
+  text-align: center;
+}
+.description {
+  color: hsl(0, 1%, 45%);
+  font-size: 11px;
+}
+.link {
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+}
+.background-img {
+  background-color: hsl(0, 0%, 12%);
+  margin: 3rem;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  
+}
+.link-bg {
+  background-color: hsl(0, 0%, 20%);
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
