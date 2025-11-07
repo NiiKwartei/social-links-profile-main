@@ -57,3 +57,7 @@ img {
   border-radius: 5px;
   cursor: pointer;
 }
+.link-bg:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
